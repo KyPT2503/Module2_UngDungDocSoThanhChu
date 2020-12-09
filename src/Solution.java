@@ -6,12 +6,9 @@ public class Solution
     {
         Scanner scanner=new Scanner(System.in);
         int numberInString;
-        boolean isChecking=true;
-        while(isChecking==true)
+        for(int i=0;i<1000;i++)
         {
-            numberInString=scanner.nextInt();
-            System.out.println(read(numberInString));
-            isChecking=scanner.nextBoolean();
+            System.out.println(read(i));
         }
     }
     static String read(int number)
